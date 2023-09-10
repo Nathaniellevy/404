@@ -1,0 +1,59 @@
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+body {
+    background: #000;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.error {
+    position: absolute;
+    top: 19%;
+    left: 45.5%;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size:70px;
+    word-spacing: 9px;
+    animation: fadeIn 5s;
+}
+
+
+
+p {
+    position: absolute;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top: 60%;
+    left: 46%;
+    font-size: 50px;
+    animation: fadeIn 5s;
+}
+
+h4 {
+    position: absolute;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top: 50%;
+    left: 34.5%;
+    animation: fadeIn 5s;
+}
+
+
+.warning {
+    display: block;
+    width: 500px;
+    height: 500px;
+    margin-inline: auto;
+    opacity: 36%;
+
+}
